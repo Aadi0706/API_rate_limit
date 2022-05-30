@@ -16,6 +16,8 @@ app.use("/", controller)
 
   
 app.listen(5000, function(err){
-    if (err) console.log(err);
-    console.log("listening on Port 5000");
+    if (err) {
+      console.log(err);
+    }
+      console.log("listening on Port 5000");
 });
